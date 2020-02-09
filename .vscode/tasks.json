@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "/usr/bin/cmake --build /workspaces/example-cpp/build --config Debug --target all -- -j 6",
+            // protobuf boost-algorithm boost-any boost-array boost-assert boost-atomic boost-bind boost-chrono boost-convert boost-coroutine2 boost-dll boost-di boost-iterator boost-random boost-serialization boost-sort boost-variant2 boost-uuid boost-tti boost-typeof boost-statechart boost-static-assert
+            // "args": [
+            //     "-g",
+            //     "${workspaceFolder}/main.cpp",
+            //     "-o",
+            //     "${workspaceFolder}/build/main.exe",
+            //     "-L",
+            //     "/workspaces/example-cpp/vcpkg"
+            // ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
