@@ -1,4 +1,4 @@
-# Docker remote develop environment
+# Docker remote development environment
 How to set up a remote dev environment for C++ project with docker, VSCode, VCPKG (package manager).
 
 In this test project used information from:
